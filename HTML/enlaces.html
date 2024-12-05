@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Enlaces</title>
+</head>
+<body>
+    <h1> Enlaces en HTML </h1>
+    <!--
+        En HTML tenemos dos tipos de enlaces:
+        1- En laces absolutos: Son los enlaces que usamos para agregar contenido externo a nuestro proyecto como videos o musica de youtube y mas.
+        2- Enlaces relativos: Son los enlaces que estan dentro de nuestro repositorio como imagenes, redes sociales y demas.
+    
+        ¿ Como creamos un enlace ?
+        El codigo para generar un enlace es:
+            1- <a></a>: Usamos esta etiqueta para indicar que vamos usar un enlace
+            2- hreg="ruta-del-enlace": Usamos este atributo para indicar la tura del enlace, ya sea a una web externa, un recurso o imagen dentro 
+            de nuestro proyeto o a otro html.
+    
+        ¿ Como hago para que un enlace externo se abra en una nueva pestaña ?
+        Si estamos llamando a un enlace externo pero no queremos que el usuario se salga de nuestra web tenemos que usar este atributo
+        target="_blank": Este atrubito permite que el sitio externo se abra en una nueva pestaña. 
+
+        ¿Como hago para esconder un enlace detras de una imagen?
+        Para esconder un enlace detras de una imagen y que cuando el usuario haga click en dicha imagen se dispare el enlace hacemos esto:
+        1- <a href="" target="_blank">
+        2- <img src="" alt=""> 
+        3- </a>
+    -->
+
+    <a href="https://www.google.com/" target="_blank"> Enlace a Google.com</a> <p> Enlace externo </p>
+    <a href="../index.html" target="_blank"> Inicio </a> <p> Enlace interno </p> 
+    <hr>
+    <a href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjFkviyzP2JAxVqppUCHR0dAmMQPAgJ" target="_blank">
+        <img src="https://www.fayerwayer.com/resizer/v2/BGD727DSN5E5PMPGCWCKOOCYCY.jpg?auth=d20f77110188cc8e8005ddc47960e073c6b3bf02d48514e285ef09d5df59a275&width=800&height=1422" alt="Imagen de google" width="50px" height="100px">
+    </a>
+</body>
+</html>

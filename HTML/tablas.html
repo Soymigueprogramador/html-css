@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Tablas en HTML </h1>
+    <!--
+        ¿Como hago para crear una tabla en html?
+        Para crear una tabla en html hacemos esto:
+        1- <table> Usamos esta etiqueta semantica para definir que vamos a crear una tabla.
+        2- <tr> Usamos esta etiqueta para crear las filas de nuestra tabla.
+        3- <td> Usamos esta etiqueta dentro de la etiqueta anterior para crear las columnas.
+        4- <th> Usamos esta etiqueta para crear una cabecera de la tabla.
+        5- <table border="numeroQueIndicaElGrosorDelBorde"> Usamos el atributo border con un valor para indicar el grosor del borde que tiene la tabla. 
+            Lo indicado es hacerlo con css para darle un mehor estilo.
+        6- <td colspan="cantidadDeEspacioOcupado"> Usamos el atributo colspan para cuando queremos que una fila se expanda mas alla de una columna.
+        
+    -->
+
+    <table border="10">
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Apellido
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Miguel
+            </td>
+            <td>
+                Salazar
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Miguel
+            </td>
+            
+        </tr>
+    </table>
+</body>
+</html>
